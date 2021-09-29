@@ -1,3 +1,43 @@
-.navbar-brand img{
-    height: 3.5rem;
+#banner {
+  background-image: url(../img/netflix-the-crown.jpeg);
+  height: 30rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 2rem;
+  align-items: end;
+  justify-content:end
+
 }
+
+h1{
+  font-size: 3rem;
+
+}
+
+#card:hover {
+    transform: scale(1.05);
+    opacity: 1;
+    transition-property: transform, opacity;
+    transition-duration: 0.3s;
+  }
+  
+  #card {
+    opacity: 0.9;
+    transition-property: transform, opacity;
+    transition-duration: 0.3s;
+  }
+  
+  .center-btns {
+    display: flex;
+    justify-content: center;
+  }
+  
+  @media (max-width: 600px) {
+    #banner {
+      align-items: center;
+      color: #ffff;
+      padding: 1rem;
+    }
+  }
+  
